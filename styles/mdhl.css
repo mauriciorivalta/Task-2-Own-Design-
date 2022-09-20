@@ -1,0 +1,121 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(../assets/portada.jpg) no-repeat;
+    z-index: -5;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100%;
+}
+
+.titulo {
+    background-color: rgba(0, 0, 0, 0.423);
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
+    text-shadow: 5px 10px 10px whitesmoke;
+    border: 2px solid black;
+    height: 20%;
+}
+
+.navegador {
+    background-color: rgba(255, 255, 255, 0.685);
+    height: 70px;
+    line-height: 25px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.element-nav a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgba(38, 39, 24, 0.534);
+    color: white;
+}
+
+.element-nav a:hover {
+    color: black;
+}
+
+.element-nav {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    font-size: 25px;
+
+}
+
+.main {
+    height: 60%;
+}
+
+.contenedor-seccion {
+    margin: 60px;
+    background: rgba(255, 255, 255, 0.367);
+}
+
+.contenedor-seccion h2 {
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.656);
+}
+
+.container-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-seccion {
+    font-size: 20px;
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    margin-top: 20px;
+    color: rgb(192, 192, 192);
+    background-color: rgb(53, 107, 107);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.container-imagen, .about{
+    margin-left: 30px;
+}
+
+.logo {
+    background-color: rgba(255, 255, 255, 0.656);
+    border: solid 3px black;
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.781) inset;
+}
+
+footer {
+    height: 20%;
+    color: #000000b6;
+    background-color: rgba(255, 255, 255, 0.418);
+    padding: 10px;
+    text-align: end;
+    border-top: 3px solid #000000b6;
+}
