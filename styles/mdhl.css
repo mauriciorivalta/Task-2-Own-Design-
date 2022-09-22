@@ -67,6 +67,7 @@ body {
 
 .contenedor-seccion h2 {
     padding: 5px;
+    margin-bottom: 10px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.656);
 }
@@ -86,6 +87,11 @@ body {
     margin-top: 20px;
     color: rgb(192, 192, 192);
     background-color: rgb(53, 107, 107);
+}
+
+.ol, li{
+    margin-left: 85px;
+    list-style-position: inside;
 }
 
 .flex-container {
@@ -109,6 +115,26 @@ body {
     height: 300px;
     margin-top: 60px;
     box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.781) inset;
+}
+
+.letras{
+    list-style-type: lower-latin;
+    margin-left: 85px;
+    list-style-position: inside;
+}
+
+table, tr, th, td{
+    margin-top: 20px;
+    border: solid 1px black;
+    padding: 12px;
+    background-color: rgb(53, 107, 107);
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 footer {
