@@ -123,6 +123,11 @@ body {
     list-style-position: inside;
 }
 
+.circulo{
+    list-style-type: circle;
+    margin-bottom: 30px;
+}
+
 table, tr, th, td{
     margin-top: 20px;
     border: solid 1px black;
@@ -144,4 +149,110 @@ footer {
     padding: 10px;
     text-align: end;
     border-top: 3px solid #000000b6;
+}
+
+------------------------------------ form
+
+.contenedor-form, .contenedor-seccion{
+    background: rgba(255, 255, 255, 0.74);
+
+}
+
+ .contenedor-form{
+    width: 70%;
+    margin-left: 15%;
+    font-size: 20px;
+
+ }
+.tittleform{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.name{
+    margin: 10px;
+
+}
+
+.lastname{
+    margin-left: 35px;
+}
+
+.zip{
+    margin-left: 155px;
+}
+
+.gend{
+    margin-left: 12px;
+}
+.Street{
+    width: 75%;
+    margin: 10px;
+}
+
+.City{
+    width: 75%;
+    margin: 10px; 
+}
+ .Birth{
+    width: 75%;
+    margin: 10px; 
+ }
+
+ .Grade{
+    width: 75%;
+    margin: 10px; 
+ }
+ .elementary{
+    margin: 13px;
+
+ }
+ .closest{
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+ .info{
+    display: flex;
+    flex-direction: column;
+ }
+
+.container-second-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-third-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.container-fourth-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.firma{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.firm{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.submit{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgba(38, 39, 24, 0.534);
+    color: white;
+    display: flex;
+    justify-content: center;
 }
